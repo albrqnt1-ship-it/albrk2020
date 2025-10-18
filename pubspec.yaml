@@ -1,0 +1,16 @@
+name: albrq_net
+description: تطبيق استراحة البرق نت المحلي مع السحب للتحديث
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+  pull_to_refresh: ^2.0.0
+
+flutter:
+  uses-material-design: true
